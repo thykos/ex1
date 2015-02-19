@@ -1,0 +1,13 @@
+{
+  "name": "Rezonans.net_task2",
+  "version": "0.4.0",
+  "devDependencies": {
+    "browser-sync": "^2.1.6",
+    "gulp": "^3.8.11",
+    "gulp-concat-css": "^2.1.0",
+    "gulp-jade": "^1.0.0",
+    "gulp-minify-css": "^0.4.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.3"
+  }
+}

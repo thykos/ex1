@@ -1,0 +1,75 @@
+@font-face {
+  font-family: fontAwesome;
+  src: url("../fonts/fontawesome-webfont.ttf"); }
+.task-table-wrapper {
+  position: relative;
+  display: inline-block;
+  color: #fff; }
+  .task-table-wrapper .task-table {
+    border: 2px solid #4dabe4;
+    border-spacing: 2px;
+    margin-left: 54px;
+    margin-top: 54px;
+    border-collapse: separate; }
+    .task-table-wrapper .task-table .blueCell {
+      min-width: 50px;
+      min-height: 50px;
+      width: 50px;
+      height: 50px;
+      background: #4dabe4;
+      padding: 0px; }
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 18px/1 FontAwesome;
+  font-size: 18px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 16px); }
+
+.fa-minus:before {
+  content: "\f068"; }
+
+.fa-plus:before {
+  content: "\f067"; }
+
+.btn {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; }
+
+.del {
+  position: absolute;
+  background: #b00100;
+  display: none; }
+
+#delCol {
+  margin-top: 2px;
+  margin-left: 6px; }
+
+#delRow {
+  margin-top: 6px;
+  margin-left: 2px; }
+
+.add {
+  position: absolute;
+  background: #f1a417;
+  margin: 2px; }
+  .add:hover {
+    background: #ffcc00; }
+
+#addCol {
+  left: 100%;
+  top: 56px;
+  display: block; }
+
+#addRow {
+  left: 56px; }
+
+/*# sourceMappingURL=style.css.map */
