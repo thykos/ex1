@@ -2,6 +2,7 @@
   "name": "Rezonans.net_task2",
   "version": "0.4.0",
   "devDependencies": {
+    "bower": "^1.3.12",
     "browser-sync": "^2.1.6",
     "gulp": "^3.8.11",
     "gulp-concat-css": "^2.1.0",

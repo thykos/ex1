@@ -1,10 +1,10 @@
 @font-face {
   font-family: fontAwesome;
-  src: url("../fonts/fontawesome-webfont.ttf"); }
+  src: url('../fonts/fontawesome-webfont.ttf'); }
+
 .task-table-wrapper {
   position: relative;
-  display: inline-block;
-  color: #fff; }
+  display: inline-block; }
   .task-table-wrapper .task-table {
     border: 2px solid #4dabe4;
     border-spacing: 2px;
@@ -71,5 +71,3 @@
 
 #addRow {
   left: 56px; }
-
-/*# sourceMappingURL=style.css.map */
