@@ -1,27 +1,26 @@
 doctype
 html
     head
-        meta(charset="UTF-8")
+        meta( charset = "UTF-8" )
         title EX 1 JADE
-        link(rel="shortcut icon" href="img/favicon.png" type="image/x-icon")
-        link(rel="stylesheet" href="bower_components/normalize.css/normalize.css")
-        link(rel="stylesheet" href="css/style.css")
-         
+        link( rel = "shortcut icon" href = "img/favicon.png" type = "image/x-icon" )
+        link( rel = "stylesheet" href = "css/normalize.css" )
+        link( rel = "stylesheet" href = "css/style.css" )
     body
         .task-table-wrapper
-            .btn.del#delCol(onclick = "delColumn(event)")
+            .btn.del.delCol
                 i.fa.fa-minus
-            .btn.del#delRow(onclick = "delRow(this)")
+            .btn.del.delRow
                 i.fa.fa-minus
         
             table.task-table
-                -for(var i=0;i<4;i++)
+                -for (var i = 0; i < 4; i++ )
                  tr
-                     -for (var x=0;x<4;x++)
-                      td.blueCell(onmouseover = "hoverRowCol(event,this)"  onmouseout="unHoverRowCol()")
+                     -for(var x = 0; x < 4; x++ )
+                      td.blueCell
             
-            .btn.add#addCol( onclick = "addColumn()")
+            .btn.add.addCol
                 i.fa.fa-plus
-            .btn.add#addRow( onclick = "addRow()")
+            .btn.add.addRow
                 i.fa.fa-plus
-        script(type = "text/javascript" src="js/ex1.js")        
+script(type = "text/javascript" src = "js/ex1.js" )

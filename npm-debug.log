@@ -3,7 +3,7 @@
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
 1 verbose cli   '--save-dev',
-1 verbose cli   'browser-synk' ]
+1 verbose cli   'css-minify' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
 4 verbose node symlink C:\Program Files\nodejs\\node.exe
@@ -11,8 +11,8 @@
 6 warn package.json Rezonans.net_task2@0.4.0 No repository field.
 7 warn package.json Rezonans.net_task2@0.4.0 No README data
 8 verbose readDependencies using package.json deps
-9 verbose cache add [ 'browser-synk', null ]
-10 verbose cache add name=undefined spec="browser-synk" args=["browser-synk",null]
+9 verbose cache add [ 'css-minify', null ]
+10 verbose cache add name=undefined spec="css-minify" args=["css-minify",null]
 11 verbose parsed url { protocol: null,
 11 verbose parsed url   slashes: null,
 11 verbose parsed url   auth: null,
@@ -22,29 +22,29 @@
 11 verbose parsed url   hash: null,
 11 verbose parsed url   search: null,
 11 verbose parsed url   query: null,
-11 verbose parsed url   pathname: 'browser-synk',
-11 verbose parsed url   path: 'browser-synk',
-11 verbose parsed url   href: 'browser-synk' }
-12 silly lockFile 383a758b-browser-synk browser-synk
-13 verbose lock browser-synk C:\Users\Andrew\AppData\Roaming\npm-cache\383a758b-browser-synk.lock
-14 silly lockFile 383a758b-browser-synk browser-synk
-15 silly lockFile 383a758b-browser-synk browser-synk
-16 verbose addNamed [ 'browser-synk', '' ]
+11 verbose parsed url   pathname: 'css-minify',
+11 verbose parsed url   path: 'css-minify',
+11 verbose parsed url   href: 'css-minify' }
+12 silly lockFile bd00cbe6-css-minify css-minify
+13 verbose lock css-minify C:\Users\Andrew\AppData\Roaming\npm-cache\bd00cbe6-css-minify.lock
+14 silly lockFile bd00cbe6-css-minify css-minify
+15 silly lockFile bd00cbe6-css-minify css-minify
+16 verbose addNamed [ 'css-minify', '' ]
 17 verbose addNamed [ null, '*' ]
-18 silly lockFile 69078cd6-browser-synk browser-synk@
-19 verbose lock browser-synk@ C:\Users\Andrew\AppData\Roaming\npm-cache\69078cd6-browser-synk.lock
-20 silly addNameRange { name: 'browser-synk', range: '*', hasData: false }
-21 verbose request where is /browser-synk
+18 silly lockFile e75b3510-css-minify css-minify@
+19 verbose lock css-minify@ C:\Users\Andrew\AppData\Roaming\npm-cache\e75b3510-css-minify.lock
+20 silly addNameRange { name: 'css-minify', range: '*', hasData: false }
+21 verbose request where is /css-minify
 22 verbose request registry https://registry.npmjs.org/
-23 verbose request id ac2567323a0227c0
-24 verbose url raw /browser-synk
-25 verbose url resolving [ 'https://registry.npmjs.org/', './browser-synk' ]
-26 verbose url resolved https://registry.npmjs.org/browser-synk
-27 verbose request where is https://registry.npmjs.org/browser-synk
-28 info trying registry request attempt 1 at 16:24:00
-29 http GET https://registry.npmjs.org/browser-synk
-30 http 404 https://registry.npmjs.org/browser-synk
-31 verbose headers { date: 'Thu, 19 Feb 2015 14:24:03 GMT',
+23 verbose request id dcd750492f5520d8
+24 verbose url raw /css-minify
+25 verbose url resolving [ 'https://registry.npmjs.org/', './css-minify' ]
+26 verbose url resolved https://registry.npmjs.org/css-minify
+27 verbose request where is https://registry.npmjs.org/css-minify
+28 info trying registry request attempt 1 at 10:19:52
+29 http GET https://registry.npmjs.org/css-minify
+30 http 404 https://registry.npmjs.org/css-minify
+31 verbose headers { date: 'Fri, 20 Feb 2015 08:19:52 GMT',
 31 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 31 verbose headers   'content-type': 'application/json',
 31 verbose headers   'cache-control': 'max-age=0',
@@ -52,14 +52,14 @@
 31 verbose headers   'accept-ranges': 'bytes',
 31 verbose headers   via: '1.1 varnish',
 31 verbose headers   age: '0',
-31 verbose headers   'x-served-by': 'cache-fra1240-FRA',
+31 verbose headers   'x-served-by': 'cache-fra1232-FRA',
 31 verbose headers   'x-cache': 'MISS',
 31 verbose headers   'x-cache-hits': '0',
-31 verbose headers   'x-timer': 'S1424355843.205440,VS0,VE181',
+31 verbose headers   'x-timer': 'S1424420392.084164,VS0,VE699',
 31 verbose headers   'keep-alive': 'timeout=10, max=50',
 31 verbose headers   connection: 'Keep-Alive' }
 32 silly registry.get cb [ 404,
-32 silly registry.get   { date: 'Thu, 19 Feb 2015 14:24:03 GMT',
+32 silly registry.get   { date: 'Fri, 20 Feb 2015 08:19:52 GMT',
 32 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 32 silly registry.get     'content-type': 'application/json',
 32 silly registry.get     'cache-control': 'max-age=0',
@@ -67,25 +67,25 @@
 32 silly registry.get     'accept-ranges': 'bytes',
 32 silly registry.get     via: '1.1 varnish',
 32 silly registry.get     age: '0',
-32 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+32 silly registry.get     'x-served-by': 'cache-fra1232-FRA',
 32 silly registry.get     'x-cache': 'MISS',
 32 silly registry.get     'x-cache-hits': '0',
-32 silly registry.get     'x-timer': 'S1424355843.205440,VS0,VE181',
+32 silly registry.get     'x-timer': 'S1424420392.084164,VS0,VE699',
 32 silly registry.get     'keep-alive': 'timeout=10, max=50',
 32 silly registry.get     connection: 'Keep-Alive' } ]
-33 silly lockFile 69078cd6-browser-synk browser-synk@
-34 silly lockFile 69078cd6-browser-synk browser-synk@
-35 error 404 404 Not Found: browser-synk
+33 silly lockFile e75b3510-css-minify css-minify@
+34 silly lockFile e75b3510-css-minify css-minify@
+35 error 404 404 Not Found: css-minify
 35 error 404
-35 error 404 'browser-synk' is not in the npm registry.
+35 error 404 'css-minify' is not in the npm registry.
 35 error 404 You should bug the author to publish it
 35 error 404 It was specified as a dependency of 'Rezonans.net_task2'
 35 error 404
 35 error 404 Note that you can also install from a
 35 error 404 tarball, folder, or http url, or git url.
 36 error System Windows_NT 6.2.9200
-37 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "browser-synk"
-38 error cwd E:\rezonans\task2\ex1
+37 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "css-minify"
+38 error cwd E:\WORK\ex1
 39 error node -v v0.10.32
 40 error npm -v 1.4.28
 41 error code E404

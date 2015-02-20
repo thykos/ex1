@@ -57,6 +57,7 @@ $hoverAddCell: #ffcc00;
     display: inline-block;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+	color:#fff;
 }
 
 .del {
@@ -65,12 +66,12 @@ $hoverAddCell: #ffcc00;
     display: none;
 }
 
-#delCol {
+.delCol {
     margin-top: 2px;
     margin-left: 6px;
 }
 
-#delRow {
+.delRow {
     margin-top:6px;
     margin-left: 2px;
 }
@@ -84,12 +85,12 @@ $hoverAddCell: #ffcc00;
     }
 }
 
-#addCol {
+.addCol {
     left: 100%;
     top: 56px;
     display: block;
 }
 
-#addRow{
+.addRow{
     left: 56px;
 }
